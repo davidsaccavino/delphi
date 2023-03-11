@@ -36,60 +36,6 @@ def getMACD():
     return macd, signal_line
 
 
-
-
-# Calculate On-Balance-Volume
-def getOBV():
-
-    i = 0
-    obv = []
-
-    for i in range(len(storedDataframe['close'])):
-
-        if i == 0:
-            value = storedDataframe['OnBalanceVolume'][i]
-            obv.append(value)
-
-
-        elif storedDataframe['close'][i] > storedDataframe['close'][i - 1] :
-            value = obv[-1] + storedDataframe['Volume'][i]
-            obv.append(value)
-
-
-        elif storedDataframe['close'][i] < storedDataframe['close'][i - 1]:
-            value = obv[-1] - storedDataframe['Volume'][i]
-            obv.append(value)
-
-
-        elif storedDataframe['close'][i] == storedDataframe['close'][i - 1]:
-            value = obv[-1]
-            obv.append(value)
-
-    return obv
-
-
-
-
-# Calculate Smoothed Moving Average of OBV
-def getOBVSMMA():
-
-    obv_len = 8
-
-    # 600678000 is the initial value of the OBV as it is the first value in the json file
-    initial_ma = 600678000
-    initial_smma = (initial_ma * (obv_len - 1) + storedDataframe['OnBalanceVolume'][obv_len]) / obv_len
-    smma = [initial_smma]
-
-
-    for i in range(1, len(storedDataframe['OnBalanceVolume'])):
-        smma.append((smma[i - 1] * (obv_len - 1) + storedDataframe['OnBalanceVolume'][i]) / obv_len)
-
-
-    return smma
-
-
-
-
 def getStochastic():
 
     # Calculate the highest high and lowest low over the past 14 days
@@ -98,7 +44,8 @@ def getStochastic():
 
 
     # Calculate %K, unsmoothed
-    stochK = (storedDataframe['close'] - lowest_low) / (highest_high - lowest_low) * 100
+    stochK = (storedDataframe['close'].iloc[-1] - lowest_low) / (highest_high - lowest_low)
+    stochK = stochK * 100
     # Smooth %K
     stochK = stochK.rolling(window=3).mean()
 
@@ -113,8 +60,8 @@ def getStochastic():
 
 
 def getSuperTrend():
-    supertrend = ta.supertrend(high = storedDataframe['high'], low = storedDataframe['low'], close = storedDataframe['close'], length = 11, multiplier = 3, offset = -10)
-    return supertrend.iloc[:-11, :]
+    supertrend = ta.supertrend(high = storedDataframe['high'], low = storedDataframe['low'], close = storedDataframe['close'], length = 10, multiplier = 2, offset = -9)
+    return supertrend.iloc[:-10, :]
 
 
 
