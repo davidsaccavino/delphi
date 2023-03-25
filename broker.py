@@ -1,4 +1,4 @@
-import os, json, delphi
+import os, json, delphi, datetime
 from dotenv import load_dotenv
 
 
@@ -49,7 +49,7 @@ VOSTsellSignal = (bearishSuperTrend and bearishOscillators and storedValues[-1][
 
 
 # Determine if currently in a "De-Risk Zone"
-deRisk = (not VOSTsellSignal) and (stochK.iloc[-1] < 55 or storedValues[-1]['close'] < eightSMA)
+deRisk = (not VOSTsellSignal) and ((stochK.iloc[-1] < 55) or (storedValues[-1]['close'] < eightSMA.iloc[-1]))
 
 # End of: Logic gates for determining bullish or bearish sentiment
 
@@ -59,7 +59,7 @@ if VOSTbuySignal and not deRisk:
         if(trading_client.get_open_position("SQQQ")):
             market_order_data = MarketOrderRequest(
                 symbol="SQQQ",
-                qty=1,
+                qty=1000,
                 side=OrderSide.SELL,
                 time_in_force=TimeInForce.DAY
             )
@@ -74,7 +74,7 @@ if VOSTbuySignal and not deRisk:
 
     market_order_data = MarketOrderRequest(
         symbol="TQQQ",
-        qty=1,
+        qty=1000,
         side=OrderSide.BUY,
         time_in_force=TimeInForce.DAY
     )
@@ -83,6 +83,7 @@ if VOSTbuySignal and not deRisk:
     market_order = trading_client.submit_order(
         order_data=market_order_data
     ) 
+    print(datetime.date() + "\nVOST Buy Signal: Selling SQQQ & Buying TQQQ")
 
 
 
@@ -91,7 +92,7 @@ if VOSTsellSignal:
         if(trading_client.get_open_position("TQQQ")):
             market_order_data = MarketOrderRequest(
                 symbol="TQQQ",
-                qty=1,
+                qty=1000,
                 side=OrderSide.SELL,
                 time_in_force=TimeInForce.DAY
             )
@@ -106,7 +107,7 @@ if VOSTsellSignal:
 
     market_order_data = MarketOrderRequest(
         symbol="SQQQ",
-        qty=1,
+        qty=1000,
         side=OrderSide.BUY,
         time_in_force=TimeInForce.DAY
     )
@@ -115,6 +116,8 @@ if VOSTsellSignal:
     market_order = trading_client.submit_order(
         order_data=market_order_data
     ) 
+    print(datetime.date() + "\nVOST Sell Signal: Selling TQQQ & Buying SQQQ")
+
 
 
 if deRisk:
@@ -122,7 +125,7 @@ if deRisk:
         if(trading_client.get_open_position("TQQQ")):
             market_order_data = MarketOrderRequest(
                 symbol="TQQQ",
-                qty=1,
+                qty=1000,
                 side=OrderSide.SELL,
                 time_in_force=TimeInForce.DAY
             )
@@ -131,5 +134,7 @@ if deRisk:
             market_order = trading_client.submit_order(
                 order_data=market_order_data
             )
+            
+            print(datetime.date() + "\nDe-Risking TQQQ")
     except:
         pass

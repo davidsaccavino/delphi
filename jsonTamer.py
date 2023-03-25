@@ -29,16 +29,24 @@ with open('./json/QQQ_Historical_Values.json', 'r+') as f:
     startDate = storedValues[-1]['time']
     startDate = startDate[:10]
 
-    startDate = datetime.strptime(startDate, '%Y-%M-%d') + timedelta(weeks=4, days=4)
+    startDate = datetime.strptime(startDate, '%Y-%m-%d') + timedelta(days=1)
+
 
     request_params = StockBarsRequest(
                             symbol_or_symbols=["QQQ"],
                             timeframe=TimeFrame.Day,
                             start=startDate,
                     )
+
+
     bars = data_client.get_stock_bars(request_params)
 
-    bars_df = bars.df
+    try:
+        bars_df = bars.df
+    except:
+        print("No bars were found to add to the dataframe.")
+        exit(1)
+
     bars_df.rename(index={1: 'time'}, columns={'open': 'open', 'high': 'high', 'low': 'low', 'close': 'close', 'volume': 'Volume'}, inplace=True)
     bars_df.index.names = ['symbol', 'time']
 

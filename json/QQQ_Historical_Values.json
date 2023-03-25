@@ -56658,5 +56658,105 @@
         "Volume": 98604639.0,
         "Smoothing Line": 4945501675,
         "OnBalanceVolume": 4848873100.0
+    },
+    {
+        "time": "2023-03-13",
+        "open": 286.73,
+        "high": 294.47,
+        "low": 285.19,
+        "close": 290.69,
+        "Volume": 97360184.0,
+        "Smoothing Line": 4945593126,
+        "OnBalanceVolume": 4946233284.0
+    },
+    {
+        "time": "2023-03-14",
+        "open": 294.31,
+        "high": 297.93,
+        "low": 293.45,
+        "close": 297.37,
+        "Volume": 74035474.0,
+        "Smoothing Line": 4954927580,
+        "OnBalanceVolume": 5020268758.0
+    },
+    {
+        "time": "2023-03-15",
+        "open": 294.71,
+        "high": 299.27,
+        "low": 293.24,
+        "close": 298.93,
+        "Volume": 84063410.0,
+        "Smoothing Line": 4973603154,
+        "OnBalanceVolume": 5104332168.0
+    },
+    {
+        "time": "2023-03-16",
+        "open": 298.0,
+        "high": 307.18,
+        "low": 297.19,
+        "close": 306.81,
+        "Volume": 98885340.0,
+        "Smoothing Line": 5002304948,
+        "OnBalanceVolume": 5203217508.0
+    },
+    {
+        "time": "2023-03-17",
+        "open": 306.72,
+        "high": 309.15,
+        "low": 303.37,
+        "close": 305.36,
+        "Volume": 89448896.0,
+        "Smoothing Line": 5016237906,
+        "OnBalanceVolume": 5113768612.0
+    },
+    {
+        "time": "2023-03-20",
+        "open": 304.26,
+        "high": 306.3,
+        "low": 302.01,
+        "close": 305.97,
+        "Volume": 56550142.0,
+        "Smoothing Line": 5035498012,
+        "OnBalanceVolume": 5170318754.0
+    },
+    {
+        "time": "2023-03-21",
+        "open": 307.94,
+        "high": 310.8,
+        "low": 306.395,
+        "close": 310.34,
+        "Volume": 50285328.0,
+        "Smoothing Line": 5058636271,
+        "OnBalanceVolume": 5220604082.0
+    },
+    {
+        "time": "2023-03-22",
+        "open": 310.27,
+        "high": 315.25,
+        "low": 305.95,
+        "close": 306.12,
+        "Volume": 76011902.0,
+        "Smoothing Line": 5069380760,
+        "OnBalanceVolume": 5144592180.0
+    },
+    {
+        "time": "2023-03-23",
+        "open": 309.92,
+        "high": 314.15,
+        "low": 307.01,
+        "close": 309.75,
+        "Volume": 74575981.0,
+        "Smoothing Line": 5088104185,
+        "OnBalanceVolume": 5219168161.0
+    },
+    {
+        "time": "2023-03-24",
+        "open": 309.32,
+        "high": 310.99,
+        "low": 306.95,
+        "close": 310.89,
+        "Volume": 56700425.0,
+        "Smoothing Line": 5111574735,
+        "OnBalanceVolume": 5275868586.0
     }
 ]

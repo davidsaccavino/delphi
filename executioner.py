@@ -9,6 +9,7 @@ def job(t):
     return
 
 schedule.every().day.at("09:45").do(job,'It is 09:45')
+print("Sheduler initialized")
 
 while True:
     schedule.run_pending()
