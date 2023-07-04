@@ -1,4 +1,4 @@
-import os, json, delphi, datetime
+import sys, os, json, delphi, datetime
 from dotenv import load_dotenv
 
 
@@ -84,7 +84,7 @@ if VOSTbuySignal and not deRisk:
         order_data=market_order_data
     ) 
     print(datetime.date() + "\nVOST Buy Signal: Selling SQQQ & Buying TQQQ")
-
+    sys.stdout.flush()
 
 
 if VOSTsellSignal:
@@ -117,7 +117,7 @@ if VOSTsellSignal:
         order_data=market_order_data
     ) 
     print(datetime.date() + "\nVOST Sell Signal: Selling TQQQ & Buying SQQQ")
-
+    sys.stdout.flush()
 
 
 if deRisk:
@@ -136,5 +136,6 @@ if deRisk:
             )
             
             print(datetime.date() + "\nDe-Risking TQQQ")
+            sys.stdout.flush()
     except:
         pass

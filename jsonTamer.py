@@ -1,4 +1,4 @@
-import os, json
+import sys, os, json
 from datetime import datetime, timedelta
 from dotenv import load_dotenv
 
@@ -45,6 +45,7 @@ with open('./json/QQQ_Historical_Values.json', 'r+') as f:
         bars_df = bars.df
     except:
         print("No bars were found to add to the dataframe.")
+        sys.stdout.flush()
         exit(1)
 
     bars_df.rename(index={1: 'time'}, columns={'open': 'open', 'high': 'high', 'low': 'low', 'close': 'close', 'volume': 'Volume'}, inplace=True)
