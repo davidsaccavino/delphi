@@ -6,11 +6,13 @@ from alpaca.trading.enums import OrderSide, TimeInForce
 from alpaca.trading.requests import MarketOrderRequest
 from alpaca.trading.client import TradingClient
 
+cwd = os.path.dirname(__file__)
+
 load_dotenv()
 
 trading_client = TradingClient(os.getenv('PAPER-API-KEY'), os.getenv('PAPER-SECRET-KEY'))
 
-with open('./json/QQQ_Historical_Values.json', 'r+') as f:
+with open(cwd + '/json/QQQ_Historical_Values.json', 'r+') as f:
     storedValues = json.load(f)
 
 

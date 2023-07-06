@@ -13,14 +13,14 @@ load_dotenv()
 
 pd.options.display.float_format = '{:,.4f}'.format
 
-
+cwd = os.path.dirname(__file__)
 
    
 
 
 storedValues = {}
 storedDataframe = pd.DataFrame()
-with open('./json/QQQ_Historical_Values.json', 'r+') as f:
+with open(cwd + '/json/QQQ_Historical_Values.json', 'r+') as f:
     storedValues = json.load(f)
     storedDataframe = pd.DataFrame(storedValues)
 
@@ -127,4 +127,4 @@ with open('./json/QQQ_Historical_Values.json', 'r+') as f:
     
 
 
-    json.dump(jsonChunk, open('./json/QQQ_Historical_Values.json', 'w+'), indent=4)
+    json.dump(jsonChunk, open(cwd + '/json/QQQ_Historical_Values.json', 'w+'), indent=4)
