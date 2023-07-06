@@ -12,10 +12,11 @@ pd.options.display.float_format = '{:,.4f}'.format
 # Load environment variables
 load_dotenv()
 
+cwd = os.path.dirname(__file__)
 
 # Fetch historical data from local json file
 storedDataframe = pd.DataFrame()
-with open('./json/QQQ_Historical_Values.json', 'r+') as f:
+with open(cwd + '/json/QQQ_Historical_Values.json', 'r+') as f:
     storedDataframe = pd.DataFrame(json.load(f))
 
 

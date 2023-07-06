@@ -141,3 +141,5 @@ if deRisk:
             sys.stdout.flush()
     except:
         pass
+    if not(deRisk) and not(VOSTbuySignal) and not(VOSTsellSignal):
+        print('No action taken. Current Time: ' + str(datetime.datetime.now()))

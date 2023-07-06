@@ -30,7 +30,7 @@ with open(cwd + '/json/QQQ_Historical_Values.json', 'r+') as f:
     startDate = startDate[:10]
 
     startDate = datetime.strptime(startDate, '%Y-%m-%d') + timedelta(days=1)
-
+    startDate = startDate.replace(hour=0, minute=0, second=0)
 
     request_params = StockBarsRequest(
                             symbol_or_symbols=["QQQ"],
