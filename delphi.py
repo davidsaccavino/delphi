@@ -16,59 +16,64 @@ cwd = os.path.dirname(__file__)
 
 # Fetch historical data from local json file
 storedDataframe = pd.DataFrame()
-with open(cwd + '/json/QQQ_Historical_Values.json', 'r+') as f:
-    storedDataframe = pd.DataFrame(json.load(f))
+def delphi(tickerName):
+    with open(f'{cwd}/json/{tickerName}_Historical_Values.json', 'r+') as f:
+        storedDataframe = pd.DataFrame(json.load(f))
+
+        indicators = {}
+        
+
+
+        # Calculate Moving Average Convergence Divergence
+
+        # Calculate fast and slow exponential moving averages (EMAs)
+        fast_ema = storedDataframe[["close"]].ewm(span=12, adjust=False).mean(numeric_only=True)
+        slow_ema = storedDataframe[["close"]].ewm(span=26, adjust=False).mean(numeric_only=True)
+        macd = fast_ema - slow_ema
+
+
+        # Caclulate the signal line and MACD spread
+        signal_line = macd.ewm(span=9, adjust=False).mean()
+
+
+        indicators["MACD"] = macd
+        indicators["signal_line"] = signal_line
 
 
 
-# Calculate Moving Average Convergence Divergence
-def getMACD():
-
-    # Calculate fast and slow exponential moving averages (EMAs)
-    fast_ema = storedDataframe[["close"]].ewm(span=12, adjust=False).mean(numeric_only=True)
-    slow_ema = storedDataframe[["close"]].ewm(span=26, adjust=False).mean(numeric_only=True)
-    macd = fast_ema - slow_ema
+        # Calculate the highest high and lowest low over the past 14 days
+        highest_high = storedDataframe['high'].rolling(window=14).max()
+        lowest_low = storedDataframe['low'].rolling(window=14).min()
 
 
-    # Caclulate the signal line and MACD spread
-    signal_line = macd.ewm(span=9, adjust=False).mean()
+        # Calculate %K, unsmoothed
+        stochK = (storedDataframe['close'].iloc[-1] - lowest_low) / (highest_high - lowest_low)
+        stochK = stochK * 100
+        # Smooth %K
+        stochK = stochK.rolling(window=3).mean()
 
 
-    return macd, signal_line
+        # Calculate %D
+        stochD = stochK.rolling(window=3).mean()
 
-
-def getStochastic():
-
-    # Calculate the highest high and lowest low over the past 14 days
-    highest_high = storedDataframe['high'].rolling(window=14).max()
-    lowest_low = storedDataframe['low'].rolling(window=14).min()
-
-
-    # Calculate %K, unsmoothed
-    stochK = (storedDataframe['close'].iloc[-1] - lowest_low) / (highest_high - lowest_low)
-    stochK = stochK * 100
-    # Smooth %K
-    stochK = stochK.rolling(window=3).mean()
-
-
-    # Calculate %D
-    stochD = stochK.rolling(window=3).mean()
-
-
-    return round(stochK, 2), round(stochD, 2)
-
-
-
-
-def getSuperTrend():
-    supertrend = ta.supertrend(high = storedDataframe['high'], low = storedDataframe['low'], close = storedDataframe['close'], length = 10, multiplier = 2, offset = -9)
-    return supertrend.iloc[:-10, :]
+        indicators["stochK"] = round(stochK, 2)
+        indicators["stockD"] = round(stochD, 2)
+        
 
 
 
 
-def get8BarSMA():
-    sma = storedDataframe['close'].rolling(window=8).mean(numeric_only=True).dropna()
+        #Calculate Supertrend
+        supertrend = ta.supertrend(high = storedDataframe['high'], low = storedDataframe['low'], close = storedDataframe['close'], length = 10, multiplier = 2, offset = -9)
+        indicators["supertrend"] = supertrend.iloc[:-10, :]
 
-    return sma
+
+
+
+        # Calculate 8-bar SMA
+        sma = storedDataframe['close'].rolling(window=8).mean(numeric_only=True).dropna()
+
+        indicators['sma'] = sma
+
+    return indicators
 
