@@ -31,8 +31,8 @@ def broker(tickerName, indicators):
     bearishOBV = storedValues[-1]['OnBalanceVolume'] < storedValues[-1]['Smoothing Line']
 
     # macd Bullish/Bearish logic gates
-    bullishmacd = macd['close'].iloc[-1] > singal_line['close'].iloc[-1] + 0.25
-    bearishmacd = macd['close'].iloc[-1] < singal_line['close'].iloc[-1] - .05
+    bullishMACD = macd['close'].iloc[-1] > singal_line['close'].iloc[-1] + 0.25
+    bearishMACD = macd['close'].iloc[-1] < singal_line['close'].iloc[-1] - .05
 
 
     # Stochastic Bullish/Bearish logic gates
@@ -40,20 +40,20 @@ def broker(tickerName, indicators):
     bearishStochastic = (stochK.iloc[-1] < 60 and stochD.iloc[-1] > (stochK.iloc[-1] + 1.5)) or stochK.iloc[-1] < 40
 
     # Aggregated Oscillator Bullish/Bearish logic gates
-    bullishOscillators = bullishOBV and bullishStochastic and bullishmacd
-    bearishOscillators = bearishOBV and bearishStochastic and bearishmacd
+    bullishOscillators = bullishOBV and bullishStochastic and bullishMACD
+    bearishOscillators = bearishOBV and bearishStochastic and bearishMACD
 
     # SuperTrend Bullish/Bearish logic gates
     bullishSuperTrend = supertrend.iloc[-1]["SUPERTd_10_2.0"] == 1 and (supertrend.iloc[-2]["SUPERTd_10_2.0"] == -1 or supertrend.iloc[-3]["SUPERTd_10_2.0"] == -1)
     bearishSuperTrend = supertrend.iloc[-1]["SUPERTd_10_2.0"] == -1 and (supertrend.iloc[-2]["SUPERTd_10_2.0"] == 1 or supertrend.iloc[-3]["SUPERTd_10_2.0"] == 1)
 
     # Volume-Oscillator-weighted SuperTrend buy and sell signals
-    VOSTbuySignal = (bullishSuperTrend and bullishOscillators and storedValues[-1]['close'] > eightSMA.iloc[-1])
-    VOSTsellSignal = (bearishSuperTrend and bearishOscillators and storedValues[-1]['close']  < eightSMA.iloc[-1])
+    VOSTbuySignal = bullishSuperTrend and bullishOscillators and storedValues[-1]['close'] > eightSMA.iloc[-1]
+    VOSTsellSignal = bearishSuperTrend and bearishOscillators and storedValues[-1]['close']  < eightSMA.iloc[-1]
 
 
     # Determine if currently in a "De-Risk Zone"
-    deRisk = (not VOSTsellSignal) and ((stochK.iloc[-1] < 55) or (storedValues[-1]['close'] < eightSMA.iloc[-1]))
+    deRisk = not VOSTsellSignal and (stochK.iloc[-1] < 55) or (storedValues[-1]['close'] < eightSMA.iloc[-1])
 
     # End of: Logic gates for determining bullish or bearish sentiment
 
@@ -121,5 +121,5 @@ def broker(tickerName, indicators):
                 sys.stdout.flush()
         except:
             pass
-        if not(deRisk) and not(VOSTbuySignal) and not(VOSTsellSignal):
+        if not deRisk and not VOSTbuySignal and not VOSTsellSignal:
             print(f'No action taken on {tickerName}. Current Time: {datetime.datetime.now()}')

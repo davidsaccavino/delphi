@@ -15,116 +15,139 @@ pd.options.display.float_format = '{:,.4f}'.format
 
 cwd = os.path.dirname(__file__)
 
-def jsonTamer(tickerName):
+
+def jsonTamer(tickerName, timeframes):
     storedValues = {}
     storedDataframe = pd.DataFrame()
-    with open(f'{cwd}/json/{tickerName}_Historical_Values.json', 'r+') as f:
-        storedValues = json.load(f)
-        storedDataframe = pd.DataFrame(storedValues)
+    for i in range(len(timeframes)):
 
 
-        data_client = StockHistoricalDataClient(os.getenv('PAPER-API-KEY'), os.getenv('PAPER-SECRET-KEY'))
-        startDate = storedValues[-1]['time']
-        startDate = startDate[:10]
+        print(f'Parsing {tickerName} {timeframes[i]} data.')
+        with open(f'{cwd}/json/{tickerName}_{timeframes[i]}_Historical_Values.json', 'r+') as f:
+            storedValues = json.load(f)
+            storedDataframe = pd.DataFrame(storedValues)
 
-        startDate = datetime.strptime(startDate, '%Y-%m-%d') + timedelta(days=1)
-        startDate = startDate.replace(hour=0, minute=0, second=0)
+            startDate = storedValues[-1]['time']
+            if timeframes[i] == "Hour":
+                request_timeframe = TimeFrame.Hour
+                startDate = datetime.strptime(startDate, '%Y-%m-%d %H:%M:%S') + timedelta(hours=1)
+            elif timeframes[i] == "Day":
+                request_timeframe = TimeFrame.Day
+                startDate = datetime.strptime(startDate, '%Y-%m-%d') + timedelta(days=1)
+                startDate = startDate.replace(hour=0, minute=0, second=0)
+            elif timeframes[i] == "Week":
+                request_timeframe = TimeFrame.Week
+                startDate = datetime.strptime(startDate, '%Y-%m-%d') + timedelta(weeks=1)
+                startDate = startDate.replace(hour=0, minute=0, second=0)
 
-        request_params = StockBarsRequest(
-                                symbol_or_symbols=[tickerName],
-                                timeframe=TimeFrame.Day,
-                                start=startDate,
-                        )
-
-
-        bars = data_client.get_stock_bars(request_params)
-
-        try:
-            bars_df = bars.df
-        except:
-            print(f'No bars were found to add to the {tickerName} dataframe.')
-            sys.stdout.flush()
-            exit(1)
-
-        bars_df.rename(index={1: 'time'}, columns={'open': 'open', 'high': 'high', 'low': 'low', 'close': 'close', 'volume': 'Volume'}, inplace=True)
-        bars_df.index.names = ['symbol', 'time']
+            data_client = StockHistoricalDataClient(os.getenv('PAPER-API-KEY'), os.getenv('PAPER-SECRET-KEY'))
 
 
-    
-        bars_df['time'] = (bars_df.index).get_level_values(1).astype(str)
-        storedDataframe = storedDataframe.append(bars_df, ignore_index=True)
+
+
+
+            request_params = StockBarsRequest(
+                                    symbol_or_symbols=[tickerName],
+                                    timeframe=request_timeframe,
+                                    start=startDate,
+                            )
+
+
+            bars = data_client.get_stock_bars(request_params)
+            print(bars)
+            try:
+                bars_df = bars.df
+            except:
+                print(f'No bars were found to add to the {tickerName}-{timeframes[i]} dataframe.')
+                sys.stdout.flush()
+                exit(1)
+
+            bars_df.rename(index={1: 'time'}, columns={'open': 'open', 'high': 'high', 'low': 'low', 'close': 'close', 'volume': 'Volume'}, inplace=True)
+            bars_df.index.names = ['symbol', 'time']
+
 
         
+            bars_df['time'] = (bars_df.index).get_level_values(1).astype(str)
+            storedDataframe = storedDataframe.append(bars_df, ignore_index=True)
+
+            
+            
+            def getOBV():
+                obv = []
+                for obvIterator in range(len(storedDataframe['close'])):
+                    if obvIterator == 0:
+                        value = storedDataframe['OnBalanceVolume'][obvIterator]
+                        obv.append(value)
+                    elif storedDataframe['close'][obvIterator] > storedDataframe['close'][obvIterator - 1] :
+                        value = obv[-1] + storedDataframe['Volume'][obvIterator]
+                        obv.append(value)
+                    elif storedDataframe['close'][obvIterator] < storedDataframe['close'][obvIterator - 1]:
+                        value = obv[-1] - storedDataframe['Volume'][obvIterator]
+                        obv.append(value)
+                    elif storedDataframe['close'][obvIterator] == storedDataframe['close'][obvIterator - 1]:
+                        value = obv[-1]
+                        obv.append(value)
+
+
+                return obv
+
+
+
         
-        def getOBV():
-            i = 0
-            obv = []
-            for i in range(len(storedDataframe['close'])):
-                if i == 0:
-                    value = storedDataframe['OnBalanceVolume'][i]
-                    obv.append(value)
-                elif storedDataframe['close'][i] > storedDataframe['close'][i - 1] :
-                    value = obv[-1] + storedDataframe['Volume'][i]
-                    obv.append(value)
-                elif storedDataframe['close'][i] < storedDataframe['close'][i - 1]:
-                    value = obv[-1] - storedDataframe['Volume'][i]
-                    obv.append(value)
-                elif storedDataframe['close'][i] == storedDataframe['close'][i - 1]:
-                    value = obv[-1]
-                    obv.append(value)
+            obv = getOBV()
 
+            def getOBVSMMA():
+                obv_len = 8
+                initialSMMA =  storedValues[-1]['Smoothing Line']
+                
+                smma = [initialSMMA]
 
-            return obv
+                length = len(storedDataframe) - len(storedValues)
+
+                for obvIterator in range(0, length):
+                    smma.append(round((smma[obvIterator] * (obv_len - 1) + obv[len(storedValues) + obvIterator]) / obv_len))
+
+                return smma[1:]
 
 
 
-    
-        obv = getOBV()
+                
 
-        def getOBVSMMA():
-            obv_len = 8
-            initialSMMA =  storedValues[-1]['Smoothing Line']
+            smma = getOBVSMMA()
+
+            jsonChunk = []
+            for jsonChuckIterator in range(len(storedDataframe['close'])):
+                
+                #format time to match json
+                time = storedDataframe['time'].iloc[jsonChuckIterator]
+                time = time[:10]
+                if(i < len(storedValues)):
+                    currentSMMA = storedValues[jsonChuckIterator]['Smoothing Line']
+                else:
+                    currentSMMA = smma[i - len(storedValues)]
+                
+                HeikinAshiClose = (storedDataframe['open'].iloc[jsonChuckIterator] + storedDataframe['high'].iloc[jsonChuckIterator] + storedDataframe['low'].iloc[jsonChuckIterator] + storedDataframe['close'].iloc[jsonChuckIterator]) / 4
+                HeikinAshiOpen = (storedDataframe['open'].iloc[jsonChuckIterator - 1] + storedDataframe['close'].iloc[jsonChuckIterator - 1]) / 2
+                HeikinAshiHigh = max(storedDataframe['high'].iloc[jsonChuckIterator], HeikinAshiOpen, HeikinAshiClose)
+                HeikinAshiLow = min(storedDataframe['low'].iloc[jsonChuckIterator], HeikinAshiOpen, HeikinAshiClose)
+
+                jsonChunk.append({
+                'time' : time,
+                'open' : HeikinAshiOpen.iloc[jsonChuckIterator],
+                'high' : HeikinAshiHigh.iloc[jsonChuckIterator],
+                'low' : HeikinAshiLow.iloc[jsonChuckIterator],
+                'close' : HeikinAshiClose.iloc[jsonChuckIterator],
+                'Volume' : storedDataframe['Volume'].iloc[jsonChuckIterator],
+                'Smoothing Line' : currentSMMA,
+                'OnBalanceVolume' : obv[jsonChuckIterator]
+                })
+
+            print(jsonChunk)
+                
             
-            smma = [initialSMMA]
-
-            length = len(storedDataframe) - len(storedValues)
-
-            for i in range(0, length):
-                smma.append(round((smma[i] * (obv_len - 1) + obv[len(storedValues) + i]) / obv_len))
-
-            return smma[1:]
 
 
-
-            
-
-        smma = getOBVSMMA()
-
-        jsonChunk = []
-        for i in range(len(storedDataframe['close'])):
-            
-            #format time to match json
-            time = storedDataframe['time'].iloc[i]
-            time = time[:10]
-            if(i < len(storedValues)):
-                currentSMMA = storedValues[i]['Smoothing Line']
-            else:
-                currentSMMA = smma[i - len(storedValues)]
-
-            jsonChunk.append({
-            'time' : time,
-            'open' : storedDataframe['open'].iloc[i],
-            'high' : storedDataframe['high'].iloc[i],
-            'low' : storedDataframe['low'].iloc[i],
-            'close' : storedDataframe['close'].iloc[i],
-            'Volume' : storedDataframe['Volume'].iloc[i],
-            'Smoothing Line' : currentSMMA,
-            'OnBalanceVolume' : obv[i]
-            })
-            
-        
+            json.dump(jsonChunk, open(f'{cwd}/json/{tickerName}_{timeframes[i]}_Historical_Values.json', 'w+'), indent=4)
 
 
-        json.dump(jsonChunk, open(f'{cwd}/json/{tickerName}_Historical_Values.json', 'w+'), indent=4)
-
-
+jsonTamer("QQQ", ["Hour"])
