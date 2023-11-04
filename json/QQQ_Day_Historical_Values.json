@@ -56456,7 +56456,7 @@
         "low": 300.2,
         "close": 301.68,
         "Volume": 49137818.0,
-        "Smoothing Line": 4950000000.0,
+        "Smoothing Line": 4995903591.6,
         "OnBalanceVolume": 4941433944.0
     },
     {
@@ -56465,9 +56465,9 @@
         "high": 301.57,
         "low": 297.25,
         "close": 299.7,
-        "Volume": 50119244.0,
-        "Smoothing Line": 4942664338,
-        "OnBalanceVolume": 4891314700.0
+        "Volume": 50831852.0,
+        "Smoothing Line": 4982740904,
+        "OnBalanceVolume": 4890602092.0
     },
     {
         "time": "2023-02-13",
@@ -56475,9 +56475,9 @@
         "high": 305.1,
         "low": 299.93,
         "close": 304.5,
-        "Volume": 40261183.0,
-        "Smoothing Line": 4941278281,
-        "OnBalanceVolume": 4931575883.0
+        "Volume": 40227914.0,
+        "Smoothing Line": 4976252042,
+        "OnBalanceVolume": 4930830006.0
     },
     {
         "time": "2023-02-14",
@@ -56485,9 +56485,9 @@
         "high": 307.72,
         "low": 300.91,
         "close": 306.75,
-        "Volume": 64133939.0,
-        "Smoothing Line": 4948082224,
-        "OnBalanceVolume": 4995709822.0
+        "Volume": 64548090.0,
+        "Smoothing Line": 4978642799,
+        "OnBalanceVolume": 4995378096.0
     },
     {
         "time": "2023-02-15",
@@ -56495,9 +56495,9 @@
         "high": 309.27,
         "low": 304.2,
         "close": 309.1,
-        "Volume": 43720317.0,
-        "Smoothing Line": 4959500713,
-        "OnBalanceVolume": 5039430139.0
+        "Volume": 43727624.0,
+        "Smoothing Line": 4986200664,
+        "OnBalanceVolume": 5039105720.0
     },
     {
         "time": "2023-02-16",
@@ -56505,9 +56505,9 @@
         "high": 308.43,
         "low": 303.15,
         "close": 303.3,
-        "Volume": 60687235.0,
-        "Smoothing Line": 4961905987,
-        "OnBalanceVolume": 4978742904.0
+        "Volume": 59964747.0,
+        "Smoothing Line": 4985318203,
+        "OnBalanceVolume": 4979140973.0
     },
     {
         "time": "2023-02-17",
@@ -56515,9 +56515,9 @@
         "high": 301.93,
         "low": 298.1,
         "close": 301.16,
-        "Volume": 58326466.0,
-        "Smoothing Line": 4956719793,
-        "OnBalanceVolume": 4920416438.0
+        "Volume": 57824806.0,
+        "Smoothing Line": 4977317948,
+        "OnBalanceVolume": 4921316167.0
     },
     {
         "time": "2023-02-21",
@@ -56525,9 +56525,9 @@
         "high": 298.73,
         "low": 293.89,
         "close": 294.03,
-        "Volume": 46591744.0,
-        "Smoothing Line": 4946357906,
-        "OnBalanceVolume": 4873824694.0
+        "Volume": 47456062.0,
+        "Smoothing Line": 4964385718,
+        "OnBalanceVolume": 4873860105.0
     },
     {
         "time": "2023-02-22",
@@ -56535,9 +56535,9 @@
         "high": 296.3599,
         "low": 292.56,
         "close": 294.25,
-        "Volume": 51489428.0,
-        "Smoothing Line": 4943727433,
-        "OnBalanceVolume": 4925314122.0
+        "Volume": 51803078.0,
+        "Smoothing Line": 4959545401,
+        "OnBalanceVolume": 4925663183.0
     },
     {
         "time": "2023-02-23",
@@ -56545,9 +56545,9 @@
         "high": 298.13,
         "low": 292.55,
         "close": 296.82,
-        "Volume": 69470693.0,
-        "Smoothing Line": 4950109606,
-        "OnBalanceVolume": 4994784815.0
+        "Volume": 69693261.0,
+        "Smoothing Line": 4964021781,
+        "OnBalanceVolume": 4995356444.0
     },
     {
         "time": "2023-02-24",
@@ -56555,9 +56555,9 @@
         "high": 292.97,
         "low": 290.05,
         "close": 291.85,
-        "Volume": 74377432.0,
-        "Smoothing Line": 4946396828,
-        "OnBalanceVolume": 4920407383.0
+        "Volume": 74874238.0,
+        "Smoothing Line": 4958579334,
+        "OnBalanceVolume": 4920482206.0
     },
     {
         "time": "2023-02-27",
@@ -56565,9 +56565,9 @@
         "high": 296.49,
         "low": 293.34,
         "close": 293.94,
-        "Volume": 49077809.0,
-        "Smoothing Line": 4949282874,
-        "OnBalanceVolume": 4969485192.0
+        "Volume": 49553397.0,
+        "Smoothing Line": 4960011368,
+        "OnBalanceVolume": 4970035603.0
     },
     {
         "time": "2023-02-28",
@@ -56575,9 +56575,9 @@
         "high": 296.124,
         "low": 292.96,
         "close": 293.56,
-        "Volume": 48427221.0,
-        "Smoothing Line": 4945754761,
-        "OnBalanceVolume": 4921057971.0
+        "Volume": 48659121.0,
+        "Smoothing Line": 4955182007,
+        "OnBalanceVolume": 4921376482.0
     },
     {
         "time": "2023-03-01",
@@ -56585,9 +56585,9 @@
         "high": 293.93,
         "low": 290.2,
         "close": 291.2,
-        "Volume": 58420411.0,
-        "Smoothing Line": 4935365111,
-        "OnBalanceVolume": 4862637560.0
+        "Volume": 58832638.0,
+        "Smoothing Line": 4943602237,
+        "OnBalanceVolume": 4862543844.0
     },
     {
         "time": "2023-03-02",
@@ -56595,9 +56595,9 @@
         "high": 294.43,
         "low": 288.37,
         "close": 293.61,
-        "Volume": 53824525.0,
-        "Smoothing Line": 4933002233,
-        "OnBalanceVolume": 4916462085.0
+        "Volume": 54346619.0,
+        "Smoothing Line": 4940263265,
+        "OnBalanceVolume": 4916890463.0
     },
     {
         "time": "2023-03-03",
@@ -56605,9 +56605,9 @@
         "high": 299.92,
         "low": 294.87,
         "close": 299.68,
-        "Volume": 60865397.0,
-        "Smoothing Line": 4938542889,
-        "OnBalanceVolume": 4977327482.0
+        "Volume": 61047070.0,
+        "Smoothing Line": 4944972548,
+        "OnBalanceVolume": 4977937533.0
     },
     {
         "time": "2023-03-06",
@@ -56615,9 +56615,9 @@
         "high": 304.0,
         "low": 299.82,
         "close": 300.02,
-        "Volume": 56834729.0,
-        "Smoothing Line": 4950495304,
-        "OnBalanceVolume": 5034162211.0
+        "Volume": 57266053.0,
+        "Smoothing Line": 4956251428,
+        "OnBalanceVolume": 5035203586.0
     },
     {
         "time": "2023-03-07",
@@ -56625,9 +56625,9 @@
         "high": 301.01,
         "low": 295.72,
         "close": 296.34,
-        "Volume": 66060086.0,
-        "Smoothing Line": 4952696157,
-        "OnBalanceVolume": 4968102125.0
+        "Volume": 66037332.0,
+        "Smoothing Line": 4957865781,
+        "OnBalanceVolume": 4969166254.0
     },
     {
         "time": "2023-03-08",
@@ -56635,9 +56635,9 @@
         "high": 298.43,
         "low": 294.88,
         "close": 297.82,
-        "Volume": 50988571.0,
-        "Smoothing Line": 4960995474,
-        "OnBalanceVolume": 5019090696.0
+        "Volume": 51222434.0,
+        "Smoothing Line": 4965681144,
+        "OnBalanceVolume": 5020388688.0
     },
     {
         "time": "2023-03-09",
@@ -56645,9 +56645,9 @@
         "high": 300.98,
         "low": 291.8299,
         "close": 292.66,
-        "Volume": 71612957.0,
-        "Smoothing Line": 4959305757,
-        "OnBalanceVolume": 4947477739.0
+        "Volume": 72035779.0,
+        "Smoothing Line": 4963515115,
+        "OnBalanceVolume": 4948352909.0
     },
     {
         "time": "2023-03-10",
@@ -56655,9 +56655,9 @@
         "high": 294.35,
         "low": 287.38,
         "close": 288.55,
-        "Volume": 98604639.0,
-        "Smoothing Line": 4945501675,
-        "OnBalanceVolume": 4848873100.0
+        "Volume": 99487991.0,
+        "Smoothing Line": 4949183840,
+        "OnBalanceVolume": 4848864918.0
     },
     {
         "time": "2023-03-13",
@@ -56665,9 +56665,9 @@
         "high": 294.47,
         "low": 285.19,
         "close": 290.69,
-        "Volume": 97360184.0,
-        "Smoothing Line": 4945593126,
-        "OnBalanceVolume": 4946233284.0
+        "Volume": 97746368.0,
+        "Smoothing Line": 4948862271,
+        "OnBalanceVolume": 4946611286.0
     },
     {
         "time": "2023-03-14",
@@ -56675,9 +56675,9 @@
         "high": 297.93,
         "low": 293.45,
         "close": 297.37,
-        "Volume": 74035474.0,
-        "Smoothing Line": 4954927580,
-        "OnBalanceVolume": 5020268758.0
+        "Volume": 74357118.0,
+        "Smoothing Line": 4957875538,
+        "OnBalanceVolume": 5020968404.0
     },
     {
         "time": "2023-03-15",
@@ -56685,9 +56685,9 @@
         "high": 299.27,
         "low": 293.24,
         "close": 298.93,
-        "Volume": 84063410.0,
-        "Smoothing Line": 4973603154,
-        "OnBalanceVolume": 5104332168.0
+        "Volume": 84171732.0,
+        "Smoothing Line": 4976283613,
+        "OnBalanceVolume": 5105140136.0
     },
     {
         "time": "2023-03-16",
@@ -56695,9 +56695,9 @@
         "high": 307.18,
         "low": 297.19,
         "close": 306.81,
-        "Volume": 98885340.0,
-        "Smoothing Line": 5002304948,
-        "OnBalanceVolume": 5203217508.0
+        "Volume": 99521094.0,
+        "Smoothing Line": 5004830815,
+        "OnBalanceVolume": 5204661230.0
     },
     {
         "time": "2023-03-17",
@@ -56705,9 +56705,9 @@
         "high": 309.15,
         "low": 303.37,
         "close": 305.36,
-        "Volume": 89448896.0,
-        "Smoothing Line": 5016237906,
-        "OnBalanceVolume": 5113768612.0
+        "Volume": 87003418.0,
+        "Smoothing Line": 5018934190,
+        "OnBalanceVolume": 5117657812.0
     },
     {
         "time": "2023-03-20",
@@ -56715,9 +56715,9 @@
         "high": 306.3,
         "low": 302.01,
         "close": 305.97,
-        "Volume": 56550142.0,
-        "Smoothing Line": 5035498012,
-        "OnBalanceVolume": 5170318754.0
+        "Volume": 56818056.0,
+        "Smoothing Line": 5038376900,
+        "OnBalanceVolume": 5174475868.0
     },
     {
         "time": "2023-03-21",
@@ -56725,9 +56725,9 @@
         "high": 310.8,
         "low": 306.395,
         "close": 310.34,
-        "Volume": 50285328.0,
-        "Smoothing Line": 5058636271,
-        "OnBalanceVolume": 5220604082.0
+        "Volume": 50469455.0,
+        "Smoothing Line": 5061697953,
+        "OnBalanceVolume": 5224945323.0
     },
     {
         "time": "2023-03-22",
@@ -56735,9 +56735,9 @@
         "high": 315.25,
         "low": 305.95,
         "close": 306.12,
-        "Volume": 76011902.0,
-        "Smoothing Line": 5069380760,
-        "OnBalanceVolume": 5144592180.0
+        "Volume": 76190202.0,
+        "Smoothing Line": 5072580099,
+        "OnBalanceVolume": 5148755121.0
     },
     {
         "time": "2023-03-23",
@@ -56745,9 +56745,9 @@
         "high": 314.15,
         "low": 307.01,
         "close": 309.75,
-        "Volume": 74575981.0,
-        "Smoothing Line": 5088104185,
-        "OnBalanceVolume": 5219168161.0
+        "Volume": 74695136.0,
+        "Smoothing Line": 5091438869,
+        "OnBalanceVolume": 5223450257.0
     },
     {
         "time": "2023-03-24",
@@ -56755,8 +56755,1558 @@
         "high": 310.99,
         "low": 306.95,
         "close": 310.89,
-        "Volume": 56700425.0,
-        "Smoothing Line": 5111574735,
-        "OnBalanceVolume": 5275868586.0
+        "Volume": 57580618.0,
+        "Smoothing Line": 5115137870,
+        "OnBalanceVolume": 5281030875.0
+    },
+    {
+        "time": "2023-03-27",
+        "open": 311.6,
+        "high": 312.7,
+        "low": 307.89,
+        "close": 308.76,
+        "Volume": 50882471.0,
+        "Smoothing Line": 5129514187,
+        "OnBalanceVolume": 5230148404.0
+    },
+    {
+        "time": "2023-03-28",
+        "open": 308.17,
+        "high": 308.2,
+        "low": 304.774,
+        "close": 307.12,
+        "Volume": 48979829.0,
+        "Smoothing Line": 5135970986,
+        "OnBalanceVolume": 5181168575.0
+    },
+    {
+        "time": "2023-03-29",
+        "open": 310.88,
+        "high": 313.35,
+        "low": 310.05,
+        "close": 312.72,
+        "Volume": 54252686.0,
+        "Smoothing Line": 5148402270,
+        "OnBalanceVolume": 5235421261.0
+    },
+    {
+        "time": "2023-03-30",
+        "open": 315.24,
+        "high": 316.32,
+        "low": 312.8088,
+        "close": 315.68,
+        "Volume": 58870823.0,
+        "Smoothing Line": 5166638497,
+        "OnBalanceVolume": 5294292084.0
+    },
+    {
+        "time": "2023-03-31",
+        "open": 315.91,
+        "high": 321.17,
+        "low": 315.6,
+        "close": 320.93,
+        "Volume": 62195639.0,
+        "Smoothing Line": 5190369650,
+        "OnBalanceVolume": 5356487723.0
+    },
+    {
+        "time": "2023-04-03",
+        "open": 318.77,
+        "high": 320.42,
+        "low": 317.4201,
+        "close": 320.15,
+        "Volume": 47688076.0,
+        "Smoothing Line": 5205173400,
+        "OnBalanceVolume": 5308799647.0
+    },
+    {
+        "time": "2023-04-04",
+        "open": 320.6,
+        "high": 321.63,
+        "low": 317.8251,
+        "close": 319.07,
+        "Volume": 46460316.0,
+        "Smoothing Line": 5212319141,
+        "OnBalanceVolume": 5262339331.0
+    },
+    {
+        "time": "2023-04-05",
+        "open": 318.1,
+        "high": 319.06,
+        "low": 314.07,
+        "close": 315.92,
+        "Volume": 63431289.0,
+        "Smoothing Line": 5210642754,
+        "OnBalanceVolume": 5198908042.0
+    },
+    {
+        "time": "2023-04-06",
+        "open": 314.24,
+        "high": 318.55,
+        "low": 312.82,
+        "close": 318.05,
+        "Volume": 47503080.0,
+        "Smoothing Line": 5215113800,
+        "OnBalanceVolume": 5246411122.0
+    },
+    {
+        "time": "2023-04-10",
+        "open": 315.07,
+        "high": 317.92,
+        "low": 313.25,
+        "close": 317.87,
+        "Volume": 45588018.0,
+        "Smoothing Line": 5213327463,
+        "OnBalanceVolume": 5200823104.0
+    },
+    {
+        "time": "2023-04-11",
+        "open": 317.83,
+        "high": 317.89,
+        "low": 315.31,
+        "close": 315.83,
+        "Volume": 40635344.0,
+        "Smoothing Line": 5206685000,
+        "OnBalanceVolume": 5160187760.0
+    },
+    {
+        "time": "2023-04-12",
+        "open": 317.82,
+        "high": 318.42,
+        "low": 312.565,
+        "close": 313.04,
+        "Volume": 62925362.0,
+        "Smoothing Line": 5193007175,
+        "OnBalanceVolume": 5097262398.0
+    },
+    {
+        "time": "2023-04-13",
+        "open": 314.83,
+        "high": 319.65,
+        "low": 313.63,
+        "close": 319.17,
+        "Volume": 54786929.0,
+        "Smoothing Line": 5187887444,
+        "OnBalanceVolume": 5152049327.0
+    },
+    {
+        "time": "2023-04-14",
+        "open": 317.59,
+        "high": 320.36,
+        "low": 315.61,
+        "close": 318.57,
+        "Volume": 56737137.0,
+        "Smoothing Line": 5176315537,
+        "OnBalanceVolume": 5095312190.0
+    },
+    {
+        "time": "2023-04-17",
+        "open": 318.15,
+        "high": 319.1999,
+        "low": 316.04,
+        "close": 318.84,
+        "Volume": 43278244.0,
+        "Smoothing Line": 5171599899,
+        "OnBalanceVolume": 5138590434.0
+    },
+    {
+        "time": "2023-04-18",
+        "open": 320.99,
+        "high": 321.42,
+        "low": 317.64,
+        "close": 318.86,
+        "Volume": 47109180.0,
+        "Smoothing Line": 5173362363,
+        "OnBalanceVolume": 5185699614.0
+    },
+    {
+        "time": "2023-04-19",
+        "open": 316.41,
+        "high": 319.79,
+        "low": 316.28,
+        "close": 318.71,
+        "Volume": 39383313.0,
+        "Smoothing Line": 5169981605,
+        "OnBalanceVolume": 5146316301.0
+    },
+    {
+        "time": "2023-04-20",
+        "open": 315.69,
+        "high": 319.27,
+        "low": 314.97,
+        "close": 316.28,
+        "Volume": 63027565.0,
+        "Smoothing Line": 5159144996,
+        "OnBalanceVolume": 5083288736.0
+    },
+    {
+        "time": "2023-04-21",
+        "open": 315.91,
+        "high": 317.4,
+        "low": 314.1,
+        "close": 316.61,
+        "Volume": 59396663.0,
+        "Smoothing Line": 5157087546,
+        "OnBalanceVolume": 5142685399.0
+    },
+    {
+        "time": "2023-04-24",
+        "open": 316.38,
+        "high": 317.7391,
+        "low": 313.74,
+        "close": 315.95,
+        "Volume": 44304686.0,
+        "Smoothing Line": 5149749192,
+        "OnBalanceVolume": 5098380713.0
+    },
+    {
+        "time": "2023-04-25",
+        "open": 314.29,
+        "high": 314.97,
+        "low": 309.89,
+        "close": 309.99,
+        "Volume": 57880041.0,
+        "Smoothing Line": 5136093127,
+        "OnBalanceVolume": 5040500672.0
+    },
+    {
+        "time": "2023-04-26",
+        "open": 313.44,
+        "high": 314.935,
+        "low": 311.34,
+        "close": 311.87,
+        "Volume": 55581263.0,
+        "Smoothing Line": 5131091728,
+        "OnBalanceVolume": 5096081935.0
+    },
+    {
+        "time": "2023-04-27",
+        "open": 315.7,
+        "high": 320.86,
+        "low": 315.05,
+        "close": 320.35,
+        "Volume": 66435209.0,
+        "Smoothing Line": 5135019905,
+        "OnBalanceVolume": 5162517144.0
+    },
+    {
+        "time": "2023-04-28",
+        "open": 320.11,
+        "high": 322.65,
+        "low": 318.96,
+        "close": 322.56,
+        "Volume": 59850895.0,
+        "Smoothing Line": 5145938422,
+        "OnBalanceVolume": 5222368039.0
+    },
+    {
+        "time": "2023-05-01",
+        "open": 322.09,
+        "high": 323.63,
+        "low": 321.09,
+        "close": 322.19,
+        "Volume": 41688306.0,
+        "Smoothing Line": 5150281086,
+        "OnBalanceVolume": 5180679733.0
+    },
+    {
+        "time": "2023-05-02",
+        "open": 322.12,
+        "high": 322.45,
+        "low": 317.61,
+        "close": 319.38,
+        "Volume": 57059687.0,
+        "Smoothing Line": 5146948456,
+        "OnBalanceVolume": 5123620046.0
+    },
+    {
+        "time": "2023-05-03",
+        "open": 319.75,
+        "high": 322.47,
+        "low": 317.18,
+        "close": 317.29,
+        "Volume": 60271290.0,
+        "Smoothing Line": 5136498494,
+        "OnBalanceVolume": 5063348756.0
+    },
+    {
+        "time": "2023-05-04",
+        "open": 317.06,
+        "high": 318.23,
+        "low": 315.115,
+        "close": 316.17,
+        "Volume": 50659197.0,
+        "Smoothing Line": 5121022377,
+        "OnBalanceVolume": 5012689559.0
+    },
+    {
+        "time": "2023-05-05",
+        "open": 318.47,
+        "high": 323.76,
+        "low": 316.2116,
+        "close": 322.89,
+        "Volume": 52057753.0,
+        "Smoothing Line": 5113987994,
+        "OnBalanceVolume": 5064747312.0
+    },
+    {
+        "time": "2023-05-08",
+        "open": 322.42,
+        "high": 324.04,
+        "low": 321.315,
+        "close": 323.69,
+        "Volume": 36885016.0,
+        "Smoothing Line": 5112443536,
+        "OnBalanceVolume": 5101632328.0
+    },
+    {
+        "time": "2023-05-09",
+        "open": 322.0,
+        "high": 322.88,
+        "low": 321.32,
+        "close": 321.64,
+        "Volume": 31895240.0,
+        "Smoothing Line": 5107105230,
+        "OnBalanceVolume": 5069737088.0
+    },
+    {
+        "time": "2023-05-10",
+        "open": 324.12,
+        "high": 326.01,
+        "low": 321.6,
+        "close": 325.14,
+        "Volume": 60898857.0,
+        "Smoothing Line": 5110046569,
+        "OnBalanceVolume": 5130635945.0
+    },
+    {
+        "time": "2023-05-11",
+        "open": 325.7,
+        "high": 326.75,
+        "low": 324.12,
+        "close": 326.2,
+        "Volume": 44557893.0,
+        "Smoothing Line": 5118189978,
+        "OnBalanceVolume": 5175193838.0
+    },
+    {
+        "time": "2023-05-12",
+        "open": 326.74,
+        "high": 327.17,
+        "low": 322.94,
+        "close": 325.03,
+        "Volume": 48755766.0,
+        "Smoothing Line": 5119220990,
+        "OnBalanceVolume": 5126438072.0
+    },
+    {
+        "time": "2023-05-15",
+        "open": 325.51,
+        "high": 327.03,
+        "low": 323.96,
+        "close": 326.79,
+        "Volume": 33846062.0,
+        "Smoothing Line": 5124353883,
+        "OnBalanceVolume": 5160284134.0
+    },
+    {
+        "time": "2023-05-16",
+        "open": 326.06,
+        "high": 328.9025,
+        "low": 326.02,
+        "close": 327.16,
+        "Volume": 40019151.0,
+        "Smoothing Line": 5133847558,
+        "OnBalanceVolume": 5200303285.0
+    },
+    {
+        "time": "2023-05-17",
+        "open": 328.24,
+        "high": 331.71,
+        "low": 327.04,
+        "close": 331.12,
+        "Volume": 48036281.0,
+        "Smoothing Line": 5148159059,
+        "OnBalanceVolume": 5248339566.0
+    },
+    {
+        "time": "2023-05-18",
+        "open": 331.52,
+        "high": 337.49,
+        "low": 331.5,
+        "close": 337.27,
+        "Volume": 64414975.0,
+        "Smoothing Line": 5168733494,
+        "OnBalanceVolume": 5312754541.0
+    },
+    {
+        "time": "2023-05-19",
+        "open": 337.49,
+        "high": 338.205,
+        "low": 335.43,
+        "close": 336.51,
+        "Volume": 61625184.0,
+        "Smoothing Line": 5179032977,
+        "OnBalanceVolume": 5251129357.0
+    },
+    {
+        "time": "2023-05-22",
+        "open": 336.25,
+        "high": 338.67,
+        "low": 336.24,
+        "close": 337.64,
+        "Volume": 43569439.0,
+        "Smoothing Line": 5193491204,
+        "OnBalanceVolume": 5294698796.0
+    },
+    {
+        "time": "2023-05-23",
+        "open": 335.89,
+        "high": 337.06,
+        "low": 333.0,
+        "close": 333.36,
+        "Volume": 48351629.0,
+        "Smoothing Line": 5200098199,
+        "OnBalanceVolume": 5246347167.0
+    },
+    {
+        "time": "2023-05-24",
+        "open": 331.37,
+        "high": 332.905,
+        "low": 329.56,
+        "close": 331.65,
+        "Volume": 63041068.0,
+        "Smoothing Line": 5197999186,
+        "OnBalanceVolume": 5183306099.0
+    },
+    {
+        "time": "2023-05-25",
+        "open": 339.14,
+        "high": 341.01,
+        "low": 336.665,
+        "close": 339.72,
+        "Volume": 66862773.0,
+        "Smoothing Line": 5204520397,
+        "OnBalanceVolume": 5250168872.0
+    },
+    {
+        "time": "2023-05-26",
+        "open": 340.76,
+        "high": 349.245,
+        "low": 340.66,
+        "close": 348.4,
+        "Volume": 63871016.0,
+        "Smoothing Line": 5218210333,
+        "OnBalanceVolume": 5314039888.0
+    },
+    {
+        "time": "2023-05-30",
+        "open": 352.71,
+        "high": 353.93,
+        "low": 348.53,
+        "close": 349.98,
+        "Volume": 73297753.0,
+        "Smoothing Line": 5239351246,
+        "OnBalanceVolume": 5387337641.0
+    },
+    {
+        "time": "2023-05-31",
+        "open": 348.37,
+        "high": 350.6,
+        "low": 346.51,
+        "close": 347.99,
+        "Volume": 65240236.0,
+        "Smoothing Line": 5249694516,
+        "OnBalanceVolume": 5322097405.0
+    },
+    {
+        "time": "2023-06-01",
+        "open": 347.73,
+        "high": 353.36,
+        "low": 346.66,
+        "close": 352.01,
+        "Volume": 50629250.0,
+        "Smoothing Line": 5265073533,
+        "OnBalanceVolume": 5372726655.0
+    },
+    {
+        "time": "2023-06-02",
+        "open": 353.8,
+        "high": 355.83,
+        "low": 352.01,
+        "close": 354.65,
+        "Volume": 53364684.0,
+        "Smoothing Line": 5285200759,
+        "OnBalanceVolume": 5426091339.0
+    },
+    {
+        "time": "2023-06-05",
+        "open": 354.43,
+        "high": 357.495,
+        "low": 353.85,
+        "close": 354.9,
+        "Volume": 47293803.0,
+        "Smoothing Line": 5308723807,
+        "OnBalanceVolume": 5473385142.0
+    },
+    {
+        "time": "2023-06-06",
+        "open": 354.28,
+        "high": 355.82,
+        "low": 352.93,
+        "close": 354.84,
+        "Volume": 41409510.0,
+        "Smoothing Line": 5324130285,
+        "OnBalanceVolume": 5431975632.0
+    },
+    {
+        "time": "2023-06-07",
+        "open": 355.13,
+        "high": 357.12,
+        "low": 348.18,
+        "close": 348.82,
+        "Volume": 69240268.0,
+        "Smoothing Line": 5328955920,
+        "OnBalanceVolume": 5362735364.0
+    },
+    {
+        "time": "2023-06-08",
+        "open": 349.12,
+        "high": 353.62,
+        "low": 348.89,
+        "close": 353.15,
+        "Volume": 47162034.0,
+        "Smoothing Line": 5339073605,
+        "OnBalanceVolume": 5409897398.0
+    },
+    {
+        "time": "2023-06-09",
+        "open": 354.63,
+        "high": 357.66,
+        "low": 353.03,
+        "close": 354.5,
+        "Volume": 53190761.0,
+        "Smoothing Line": 5354575424,
+        "OnBalanceVolume": 5463088159.0
+    },
+    {
+        "time": "2023-06-12",
+        "open": 356.19,
+        "high": 360.59,
+        "low": 355.2,
+        "close": 360.49,
+        "Volume": 44860892.0,
+        "Smoothing Line": 5373747127,
+        "OnBalanceVolume": 5507949051.0
+    },
+    {
+        "time": "2023-06-13",
+        "open": 363.29,
+        "high": 364.11,
+        "low": 360.03,
+        "close": 363.26,
+        "Volume": 57121403.0,
+        "Smoothing Line": 5397662543,
+        "OnBalanceVolume": 5565070454.0
+    },
+    {
+        "time": "2023-06-14",
+        "open": 363.27,
+        "high": 366.19,
+        "low": 360.42,
+        "close": 365.9,
+        "Volume": 69549870.0,
+        "Smoothing Line": 5427282266,
+        "OnBalanceVolume": 5634620324.0
+    },
+    {
+        "time": "2023-06-15",
+        "open": 364.61,
+        "high": 371.77,
+        "low": 363.98,
+        "close": 370.26,
+        "Volume": 71158439.0,
+        "Smoothing Line": 5462094328,
+        "OnBalanceVolume": 5705778763.0
+    },
+    {
+        "time": "2023-06-16",
+        "open": 372.72,
+        "high": 372.85,
+        "low": 367.48,
+        "close": 367.93,
+        "Volume": 80923624.0,
+        "Smoothing Line": 5482439429,
+        "OnBalanceVolume": 5624855139.0
+    },
+    {
+        "time": "2023-06-20",
+        "open": 365.95,
+        "high": 368.32,
+        "low": 363.8899,
+        "close": 366.9,
+        "Volume": 49229324.0,
+        "Smoothing Line": 5494087727,
+        "OnBalanceVolume": 5575625815.0
+    },
+    {
+        "time": "2023-06-21",
+        "open": 365.74,
+        "high": 366.18,
+        "low": 360.96,
+        "close": 361.9,
+        "Volume": 53411255.0,
+        "Smoothing Line": 5497603581,
+        "OnBalanceVolume": 5522214560.0
+    },
+    {
+        "time": "2023-06-22",
+        "open": 360.63,
+        "high": 366.33,
+        "low": 360.22,
+        "close": 366.17,
+        "Volume": 47631103.0,
+        "Smoothing Line": 5506633841,
+        "OnBalanceVolume": 5569845663.0
+    },
+    {
+        "time": "2023-06-23",
+        "open": 362.21,
+        "high": 364.88,
+        "low": 360.8227,
+        "close": 362.54,
+        "Volume": 48922912.0,
+        "Smoothing Line": 5508419955,
+        "OnBalanceVolume": 5520922751.0
+    },
+    {
+        "time": "2023-06-26",
+        "open": 362.0,
+        "high": 364.84,
+        "low": 357.59,
+        "close": 357.68,
+        "Volume": 52721416.0,
+        "Smoothing Line": 5503392628,
+        "OnBalanceVolume": 5468201335.0
+    },
+    {
+        "time": "2023-06-27",
+        "open": 359.25,
+        "high": 364.57,
+        "low": 358.51,
+        "close": 363.83,
+        "Volume": 49500695.0,
+        "Smoothing Line": 5505181303,
+        "OnBalanceVolume": 5517702030.0
+    },
+    {
+        "time": "2023-06-28",
+        "open": 361.98,
+        "high": 366.52,
+        "low": 361.9038,
+        "close": 364.54,
+        "Volume": 46525286.0,
+        "Smoothing Line": 5512562055,
+        "OnBalanceVolume": 5564227316.0
+    },
+    {
+        "time": "2023-06-29",
+        "open": 364.24,
+        "high": 364.89,
+        "low": 362.14,
+        "close": 363.81,
+        "Volume": 46150967.0,
+        "Smoothing Line": 5513251342,
+        "OnBalanceVolume": 5518076349.0
+    },
+    {
+        "time": "2023-06-30",
+        "open": 367.55,
+        "high": 370.49,
+        "low": 367.23,
+        "close": 369.42,
+        "Volume": 56515747.0,
+        "Smoothing Line": 5520918936,
+        "OnBalanceVolume": 5574592096.0
+    },
+    {
+        "time": "2023-07-03",
+        "open": 370.07,
+        "high": 370.93,
+        "low": 368.97,
+        "close": 370.29,
+        "Volume": 19191817.0,
+        "Smoothing Line": 5530027058,
+        "OnBalanceVolume": 5593783913.0
+    },
+    {
+        "time": "2023-07-05",
+        "open": 368.695,
+        "high": 372.01,
+        "low": 368.66,
+        "close": 370.28,
+        "Volume": 34482166.0,
+        "Smoothing Line": 5533686394,
+        "OnBalanceVolume": 5559301747.0
+    },
+    {
+        "time": "2023-07-06",
+        "open": 366.51,
+        "high": 367.91,
+        "low": 364.52,
+        "close": 367.46,
+        "Volume": 49398734.0,
+        "Smoothing Line": 5530713471,
+        "OnBalanceVolume": 5509903013.0
+    },
+    {
+        "time": "2023-07-07",
+        "open": 367.23,
+        "high": 370.48,
+        "low": 366.01,
+        "close": 366.24,
+        "Volume": 47133749.0,
+        "Smoothing Line": 5522220445,
+        "OnBalanceVolume": 5462769264.0
+    },
+    {
+        "time": "2023-07-10",
+        "open": 365.96,
+        "high": 367.05,
+        "low": 363.41,
+        "close": 366.36,
+        "Volume": 48524349.0,
+        "Smoothing Line": 5520854591,
+        "OnBalanceVolume": 5511293613.0
+    },
+    {
+        "time": "2023-07-11",
+        "open": 366.79,
+        "high": 368.632,
+        "low": 364.62,
+        "close": 368.17,
+        "Volume": 38230149.0,
+        "Smoothing Line": 5524438237,
+        "OnBalanceVolume": 5549523762.0
+    },
+    {
+        "time": "2023-07-12",
+        "open": 372.34,
+        "high": 374.19,
+        "low": 370.3,
+        "close": 372.82,
+        "Volume": 61725158.0,
+        "Smoothing Line": 5535289572,
+        "OnBalanceVolume": 5611248920.0
+    },
+    {
+        "time": "2023-07-13",
+        "open": 376.05,
+        "high": 379.99,
+        "low": 375.46,
+        "close": 379.15,
+        "Volume": 46983784.0,
+        "Smoothing Line": 5550657464,
+        "OnBalanceVolume": 5658232704.0
+    },
+    {
+        "time": "2023-07-14",
+        "open": 379.585,
+        "high": 382.86,
+        "low": 378.18,
+        "close": 379.07,
+        "Volume": 55148501.0,
+        "Smoothing Line": 5557210806,
+        "OnBalanceVolume": 5603084203.0
+    },
+    {
+        "time": "2023-07-17",
+        "open": 379.8,
+        "high": 383.5,
+        "low": 379.31,
+        "close": 382.61,
+        "Volume": 40886101.0,
+        "Smoothing Line": 5568055743,
+        "OnBalanceVolume": 5643970304.0
+    },
+    {
+        "time": "2023-07-18",
+        "open": 381.96,
+        "high": 387.13,
+        "low": 380.0,
+        "close": 385.74,
+        "Volume": 55366525.0,
+        "Smoothing Line": 5584465879,
+        "OnBalanceVolume": 5699336829.0
+    },
+    {
+        "time": "2023-07-19",
+        "open": 386.82,
+        "high": 387.98,
+        "low": 384.3,
+        "close": 385.65,
+        "Volume": 54254433.0,
+        "Smoothing Line": 5592042944,
+        "OnBalanceVolume": 5645082396.0
+    },
+    {
+        "time": "2023-07-20",
+        "open": 382.61,
+        "high": 384.095,
+        "low": 375.72,
+        "close": 376.76,
+        "Volume": 71988318.0,
+        "Smoothing Line": 5589674336,
+        "OnBalanceVolume": 5573094078.0
+    },
+    {
+        "time": "2023-07-21",
+        "open": 379.18,
+        "high": 379.92,
+        "low": 375.191,
+        "close": 375.63,
+        "Volume": 60499643.0,
+        "Smoothing Line": 5580039348,
+        "OnBalanceVolume": 5512594435.0
+    },
+    {
+        "time": "2023-07-24",
+        "open": 376.62,
+        "high": 377.58,
+        "low": 374.34,
+        "close": 376.23,
+        "Volume": 40397800.0,
+        "Smoothing Line": 5576658459,
+        "OnBalanceVolume": 5552992235.0
+    },
+    {
+        "time": "2023-07-25",
+        "open": 376.95,
+        "high": 380.47,
+        "low": 376.93,
+        "close": 378.78,
+        "Volume": 39049708.0,
+        "Smoothing Line": 5578581394,
+        "OnBalanceVolume": 5592041943.0
+    },
+    {
+        "time": "2023-07-26",
+        "open": 377.72,
+        "high": 379.24,
+        "low": 375.18,
+        "close": 377.52,
+        "Volume": 47110222.0,
+        "Smoothing Line": 5574375185,
+        "OnBalanceVolume": 5544931721.0
+    },
+    {
+        "time": "2023-07-27",
+        "open": 383.07,
+        "high": 384.71,
+        "low": 375.31,
+        "close": 376.62,
+        "Volume": 63972800.0,
+        "Smoothing Line": 5562698152,
+        "OnBalanceVolume": 5480958921.0
+    },
+    {
+        "time": "2023-07-28",
+        "open": 380.74,
+        "high": 384.52,
+        "low": 380.22,
+        "close": 383.48,
+        "Volume": 56902927.0,
+        "Smoothing Line": 5559593614,
+        "OnBalanceVolume": 5537861848.0
+    },
+    {
+        "time": "2023-07-31",
+        "open": 383.79,
+        "high": 384.88,
+        "low": 382.34,
+        "close": 383.68,
+        "Volume": 44056736.0,
+        "Smoothing Line": 5562384235,
+        "OnBalanceVolume": 5581918584.0
+    },
+    {
+        "time": "2023-08-01",
+        "open": 382.31,
+        "high": 383.56,
+        "low": 380.69,
+        "close": 382.79,
+        "Volume": 41443200.0,
+        "Smoothing Line": 5559645629,
+        "OnBalanceVolume": 5540475384.0
+    },
+    {
+        "time": "2023-08-02",
+        "open": 379.26,
+        "high": 379.26,
+        "low": 373.13,
+        "close": 374.39,
+        "Volume": 72756926.0,
+        "Smoothing Line": 5548154733,
+        "OnBalanceVolume": 5467718458.0
+    },
+    {
+        "time": "2023-08-03",
+        "open": 371.94,
+        "high": 375.95,
+        "low": 371.77,
+        "close": 373.79,
+        "Volume": 47943184.0,
+        "Smoothing Line": 5532107301,
+        "OnBalanceVolume": 5419775274.0
+    },
+    {
+        "time": "2023-08-04",
+        "open": 375.75,
+        "high": 378.1,
+        "low": 371.53,
+        "close": 372.04,
+        "Volume": 61702760.0,
+        "Smoothing Line": 5510352953,
+        "OnBalanceVolume": 5358072514.0
+    },
+    {
+        "time": "2023-08-07",
+        "open": 373.88,
+        "high": 375.29,
+        "low": 371.51,
+        "close": 375.19,
+        "Volume": 37257163.0,
+        "Smoothing Line": 5495975044,
+        "OnBalanceVolume": 5395329677.0
+    },
+    {
+        "time": "2023-08-08",
+        "open": 372.64,
+        "high": 372.66,
+        "low": 368.82,
+        "close": 372.0,
+        "Volume": 44742175.0,
+        "Smoothing Line": 5477801601,
+        "OnBalanceVolume": 5350587502.0
+    },
+    {
+        "time": "2023-08-09",
+        "open": 372.29,
+        "high": 372.45,
+        "low": 367.14,
+        "close": 367.91,
+        "Volume": 51214864.0,
+        "Smoothing Line": 5455497981,
+        "OnBalanceVolume": 5299372638.0
+    },
+    {
+        "time": "2023-08-10",
+        "open": 370.97,
+        "high": 374.36,
+        "low": 367.035,
+        "close": 368.59,
+        "Volume": 72078192.0,
+        "Smoothing Line": 5444992087,
+        "OnBalanceVolume": 5371450830.0
+    },
+    {
+        "time": "2023-08-11",
+        "open": 365.99,
+        "high": 368.0,
+        "low": 364.69,
+        "close": 366.24,
+        "Volume": 48707189.0,
+        "Smoothing Line": 5429711031,
+        "OnBalanceVolume": 5322743641.0
+    },
+    {
+        "time": "2023-08-14",
+        "open": 365.43,
+        "high": 370.47,
+        "low": 364.7,
+        "close": 370.35,
+        "Volume": 42186877.0,
+        "Smoothing Line": 5421613467,
+        "OnBalanceVolume": 5364930518.0
+    },
+    {
+        "time": "2023-08-15",
+        "open": 369.36,
+        "high": 370.169,
+        "low": 365.74,
+        "close": 366.42,
+        "Volume": 45555290.0,
+        "Smoothing Line": 5408833687,
+        "OnBalanceVolume": 5319375228.0
+    },
+    {
+        "time": "2023-08-16",
+        "open": 365.87,
+        "high": 367.43,
+        "low": 362.44,
+        "close": 362.54,
+        "Volume": 53216382.0,
+        "Smoothing Line": 5390999332,
+        "OnBalanceVolume": 5266158846.0
+    },
+    {
+        "time": "2023-08-17",
+        "open": 363.96,
+        "high": 364.31,
+        "low": 358.16,
+        "close": 358.58,
+        "Volume": 62652353.0,
+        "Smoothing Line": 5367562727,
+        "OnBalanceVolume": 5203506493.0
+    },
+    {
+        "time": "2023-08-18",
+        "open": 355.26,
+        "high": 359.41,
+        "low": 354.71,
+        "close": 358.13,
+        "Volume": 61191391.0,
+        "Smoothing Line": 5339406774,
+        "OnBalanceVolume": 5142315102.0
+    },
+    {
+        "time": "2023-08-21",
+        "open": 359.62,
+        "high": 364.59,
+        "low": 359.15,
+        "close": 363.9,
+        "Volume": 50738465.0,
+        "Smoothing Line": 5321112623,
+        "OnBalanceVolume": 5193053567.0
+    },
+    {
+        "time": "2023-08-22",
+        "open": 366.55,
+        "high": 366.56,
+        "low": 362.68,
+        "close": 363.38,
+        "Volume": 44644122.0,
+        "Smoothing Line": 5299524726,
+        "OnBalanceVolume": 5148409445.0
+    },
+    {
+        "time": "2023-08-23",
+        "open": 364.58,
+        "high": 370.22,
+        "low": 364.36,
+        "close": 369.11,
+        "Volume": 51884915.0,
+        "Smoothing Line": 5287120930,
+        "OnBalanceVolume": 5200294360.0
+    },
+    {
+        "time": "2023-08-24",
+        "open": 372.64,
+        "high": 372.74,
+        "low": 361.01,
+        "close": 361.22,
+        "Volume": 66966680.0,
+        "Smoothing Line": 5267896774,
+        "OnBalanceVolume": 5133327680.0
+    },
+    {
+        "time": "2023-08-25",
+        "open": 362.07,
+        "high": 365.74,
+        "low": 358.58,
+        "close": 364.02,
+        "Volume": 69960467.0,
+        "Smoothing Line": 5259820696,
+        "OnBalanceVolume": 5203288147.0
+    },
+    {
+        "time": "2023-08-28",
+        "open": 366.99,
+        "high": 367.71,
+        "low": 364.25,
+        "close": 366.76,
+        "Volume": 40927066.0,
+        "Smoothing Line": 5257870011,
+        "OnBalanceVolume": 5244215213.0
+    },
+    {
+        "time": "2023-08-29",
+        "open": 366.56,
+        "high": 375.13,
+        "low": 366.231,
+        "close": 374.77,
+        "Volume": 58537490.0,
+        "Smoothing Line": 5263480348,
+        "OnBalanceVolume": 5302752703.0
+    },
+    {
+        "time": "2023-08-30",
+        "open": 374.88,
+        "high": 377.4467,
+        "low": 373.86,
+        "close": 376.86,
+        "Volume": 41751165.0,
+        "Smoothing Line": 5273608288,
+        "OnBalanceVolume": 5344503868.0
+    },
+    {
+        "time": "2023-08-31",
+        "open": 376.94,
+        "high": 379.719,
+        "low": 376.87,
+        "close": 377.99,
+        "Volume": 35756083.0,
+        "Smoothing Line": 5286939746,
+        "OnBalanceVolume": 5380259951.0
+    },
+    {
+        "time": "2023-09-01",
+        "open": 380.4,
+        "high": 380.83,
+        "low": 376.0801,
+        "close": 377.59,
+        "Volume": 39801179.0,
+        "Smoothing Line": 5293629624,
+        "OnBalanceVolume": 5340458772.0
+    },
+    {
+        "time": "2023-09-05",
+        "open": 376.77,
+        "high": 379.3093,
+        "low": 375.83,
+        "close": 378.07,
+        "Volume": 32354992.0,
+        "Smoothing Line": 5303527642,
+        "OnBalanceVolume": 5372813764.0
+    },
+    {
+        "time": "2023-09-06",
+        "open": 377.28,
+        "high": 377.63,
+        "low": 372.7,
+        "close": 374.74,
+        "Volume": 43029625.0,
+        "Smoothing Line": 5306809704,
+        "OnBalanceVolume": 5329784139.0
+    },
+    {
+        "time": "2023-09-07",
+        "open": 370.21,
+        "high": 372.85,
+        "low": 369.15,
+        "close": 372.06,
+        "Volume": 52086860.0,
+        "Smoothing Line": 5303170651,
+        "OnBalanceVolume": 5277697279.0
+    },
+    {
+        "time": "2023-09-08",
+        "open": 372.01,
+        "high": 374.85,
+        "low": 371.6,
+        "close": 372.58,
+        "Volume": 35847361.0,
+        "Smoothing Line": 5304467400,
+        "OnBalanceVolume": 5313544640.0
+    },
+    {
+        "time": "2023-09-11",
+        "open": 375.66,
+        "high": 377.49,
+        "low": 373.66,
+        "close": 376.97,
+        "Volume": 39964653.0,
+        "Smoothing Line": 5310597637,
+        "OnBalanceVolume": 5353509293.0
+    },
+    {
+        "time": "2023-09-12",
+        "open": 375.27,
+        "high": 376.9517,
+        "low": 372.5,
+        "close": 372.79,
+        "Volume": 41418893.0,
+        "Smoothing Line": 5310784232,
+        "OnBalanceVolume": 5312090400.0
+    },
+    {
+        "time": "2023-09-13",
+        "open": 373.03,
+        "high": 375.84,
+        "low": 371.88,
+        "close": 374.21,
+        "Volume": 46311848.0,
+        "Smoothing Line": 5316736484,
+        "OnBalanceVolume": 5358402248.0
+    },
+    {
+        "time": "2023-09-14",
+        "open": 375.99,
+        "high": 378.27,
+        "low": 373.89,
+        "close": 377.27,
+        "Volume": 48054250.0,
+        "Smoothing Line": 5327951486,
+        "OnBalanceVolume": 5406456498.0
+    },
+    {
+        "time": "2023-09-15",
+        "open": 375.91,
+        "high": 376.32,
+        "low": 369.86,
+        "close": 370.81,
+        "Volume": 69811206.0,
+        "Smoothing Line": 5329038212,
+        "OnBalanceVolume": 5336645292.0
+    },
+    {
+        "time": "2023-09-18",
+        "open": 369.32,
+        "high": 371.79,
+        "low": 369.03,
+        "close": 370.66,
+        "Volume": 36923467.0,
+        "Smoothing Line": 5325373664,
+        "OnBalanceVolume": 5299721825.0
+    },
+    {
+        "time": "2023-09-19",
+        "open": 369.32,
+        "high": 370.6826,
+        "low": 366.8,
+        "close": 369.87,
+        "Volume": 37633273.0,
+        "Smoothing Line": 5317463025,
+        "OnBalanceVolume": 5262088552.0
+    },
+    {
+        "time": "2023-09-20",
+        "open": 370.95,
+        "high": 371.31,
+        "low": 364.46,
+        "close": 364.54,
+        "Volume": 45601078.0,
+        "Smoothing Line": 5304841081,
+        "OnBalanceVolume": 5216487474.0
+    },
+    {
+        "time": "2023-09-21",
+        "open": 360.8,
+        "high": 361.6,
+        "low": 357.69,
+        "close": 357.86,
+        "Volume": 69790992.0,
+        "Smoothing Line": 5285073006,
+        "OnBalanceVolume": 5146696482.0
+    },
+    {
+        "time": "2023-09-22",
+        "open": 359.63,
+        "high": 361.8,
+        "low": 357.59,
+        "close": 357.91,
+        "Volume": 51589691.0,
+        "Smoothing Line": 5274224652,
+        "OnBalanceVolume": 5198286173.0
+    },
+    {
+        "time": "2023-09-25",
+        "open": 356.93,
+        "high": 359.7,
+        "low": 355.93,
+        "close": 359.61,
+        "Volume": 39219545.0,
+        "Smoothing Line": 5269634785,
+        "OnBalanceVolume": 5237505718.0
+    },
+    {
+        "time": "2023-09-26",
+        "open": 356.99,
+        "high": 357.54,
+        "low": 353.2101,
+        "close": 354.21,
+        "Volume": 53717751.0,
+        "Smoothing Line": 5258903933,
+        "OnBalanceVolume": 5183787967.0
+    },
+    {
+        "time": "2023-09-27",
+        "open": 355.38,
+        "high": 356.98,
+        "low": 351.36,
+        "close": 355.04,
+        "Volume": 56104603.0,
+        "Smoothing Line": 5256527513,
+        "OnBalanceVolume": 5239892570.0
+    },
+    {
+        "time": "2023-09-28",
+        "open": 354.11,
+        "high": 360.17,
+        "low": 353.24,
+        "close": 358.01,
+        "Volume": 56483104.0,
+        "Smoothing Line": 5261508533,
+        "OnBalanceVolume": 5296375674.0
+    },
+    {
+        "time": "2023-09-29",
+        "open": 361.54,
+        "high": 362.95,
+        "low": 357.02,
+        "close": 358.27,
+        "Volume": 64829618.0,
+        "Smoothing Line": 5273970628,
+        "OnBalanceVolume": 5361205292.0
+    },
+    {
+        "time": "2023-10-02",
+        "open": 358.54,
+        "high": 362.68,
+        "low": 357.92,
+        "close": 361.26,
+        "Volume": 51664019.0,
+        "Smoothing Line": 5291332963,
+        "OnBalanceVolume": 5412869311.0
+    },
+    {
+        "time": "2023-10-03",
+        "open": 358.78,
+        "high": 361.01,
+        "low": 353.275,
+        "close": 354.92,
+        "Volume": 60544033.0,
+        "Smoothing Line": 5298957002,
+        "OnBalanceVolume": 5352325278.0
+    },
+    {
+        "time": "2023-10-04",
+        "open": 355.77,
+        "high": 360.61,
+        "low": 355.3,
+        "close": 359.75,
+        "Volume": 54980961.0,
+        "Smoothing Line": 5312500657,
+        "OnBalanceVolume": 5407306239.0
+    },
+    {
+        "time": "2023-10-05",
+        "open": 359.74,
+        "high": 360.15,
+        "low": 355.14,
+        "close": 358.69,
+        "Volume": 45915675.0,
+        "Smoothing Line": 5318611895,
+        "OnBalanceVolume": 5361390564.0
+    },
+    {
+        "time": "2023-10-06",
+        "open": 355.65,
+        "high": 365.91,
+        "low": 354.85,
+        "close": 364.7,
+        "Volume": 75049120.0,
+        "Smoothing Line": 5333340369,
+        "OnBalanceVolume": 5436439684.0
+    },
+    {
+        "time": "2023-10-09",
+        "open": 362.3,
+        "high": 367.11,
+        "low": 360.78,
+        "close": 366.56,
+        "Volume": 45319562.0,
+        "Smoothing Line": 5351892729,
+        "OnBalanceVolume": 5481759246.0
+    },
+    {
+        "time": "2023-10-10",
+        "open": 366.9,
+        "high": 371.28,
+        "low": 366.39,
+        "close": 368.59,
+        "Volume": 46993004.0,
+        "Smoothing Line": 5374000169,
+        "OnBalanceVolume": 5528752250.0
+    },
+    {
+        "time": "2023-10-11",
+        "open": 369.94,
+        "high": 371.412,
+        "low": 368.19,
+        "close": 371.22,
+        "Volume": 38250741.0,
+        "Smoothing Line": 5398125522,
+        "OnBalanceVolume": 5567002991.0
+    },
+    {
+        "time": "2023-10-12",
+        "open": 371.73,
+        "high": 373.74,
+        "low": 367.5,
+        "close": 369.93,
+        "Volume": 49610687.0,
+        "Smoothing Line": 5413033870,
+        "OnBalanceVolume": 5517392304.0
+    },
+    {
+        "time": "2023-10-13",
+        "open": 370.57,
+        "high": 371.16,
+        "low": 363.86,
+        "close": 365.28,
+        "Volume": 52519877.0,
+        "Smoothing Line": 5419513690,
+        "OnBalanceVolume": 5464872427.0
+    },
+    {
+        "time": "2023-10-16",
+        "open": 366.62,
+        "high": 370.48,
+        "low": 366.47,
+        "close": 369.41,
+        "Volume": 44239547.0,
+        "Smoothing Line": 5430713476,
+        "OnBalanceVolume": 5509111974.0
+    },
+    {
+        "time": "2023-10-17",
+        "open": 365.81,
+        "high": 369.92,
+        "low": 363.66,
+        "close": 368.2,
+        "Volume": 51020663.0,
+        "Smoothing Line": 5434135705,
+        "OnBalanceVolume": 5458091311.0
+    },
+    {
+        "time": "2023-10-18",
+        "open": 365.67,
+        "high": 367.91,
+        "low": 362.02,
+        "close": 363.37,
+        "Volume": 54334391.0,
+        "Smoothing Line": 5430338357,
+        "OnBalanceVolume": 5403756920.0
+    },
+    {
+        "time": "2023-10-19",
+        "open": 364.81,
+        "high": 366.02,
+        "low": 359.16,
+        "close": 359.97,
+        "Volume": 72352229.0,
+        "Smoothing Line": 5417971649,
+        "OnBalanceVolume": 5331404691.0
+    },
+    {
+        "time": "2023-10-20",
+        "open": 359.46,
+        "high": 360.04,
+        "low": 354.37,
+        "close": 354.6,
+        "Volume": 72559723.0,
+        "Smoothing Line": 5398080814,
+        "OnBalanceVolume": 5258844968.0
+    },
+    {
+        "time": "2023-10-23",
+        "open": 353.26,
+        "high": 359.26,
+        "low": 351.1199,
+        "close": 355.67,
+        "Volume": 61002991.0,
+        "Smoothing Line": 5388301707,
+        "OnBalanceVolume": 5319847959.0
+    },
+    {
+        "time": "2023-10-24",
+        "open": 357.51,
+        "high": 359.91,
+        "low": 355.79,
+        "close": 359.13,
+        "Volume": 47198099.0,
+        "Smoothing Line": 5385644751,
+        "OnBalanceVolume": 5367046058.0
+    },
+    {
+        "time": "2023-10-25",
+        "open": 356.7,
+        "high": 356.88,
+        "low": 349.75,
+        "close": 350.34,
+        "Volume": 71457569.0,
+        "Smoothing Line": 5374387718,
+        "OnBalanceVolume": 5295588489.0
+    },
+    {
+        "time": "2023-10-26",
+        "open": 349.12,
+        "high": 350.07,
+        "low": 342.35,
+        "close": 343.66,
+        "Volume": 78735619.0,
+        "Smoothing Line": 5354695862,
+        "OnBalanceVolume": 5216852870.0
+    },
+    {
+        "time": "2023-10-27",
+        "open": 346.43,
+        "high": 348.84,
+        "low": 344.08,
+        "close": 345.31,
+        "Volume": 63476709.0,
+        "Smoothing Line": 5345400077,
+        "OnBalanceVolume": 5280329579.0
+    },
+    {
+        "time": "2023-10-30",
+        "open": 347.83,
+        "high": 350.54,
+        "low": 346.45,
+        "close": 349.2,
+        "Volume": 55330941.0,
+        "Smoothing Line": 5344182632,
+        "OnBalanceVolume": 5335660520.0
+    },
+    {
+        "time": "2023-10-31",
+        "open": 349.23,
+        "high": 351.25,
+        "low": 346.62,
+        "close": 350.87,
+        "Volume": 47720521.0,
+        "Smoothing Line": 5349082433,
+        "OnBalanceVolume": 5383381041.0
+    },
+    {
+        "time": "2023-11-01",
+        "open": 351.72,
+        "high": 357.5298,
+        "low": 351.62,
+        "close": 356.96,
+        "Volume": 59054185.0,
+        "Smoothing Line": 5360751532,
+        "OnBalanceVolume": 5442435226.0
+    },
+    {
+        "time": "2023-11-02",
+        "open": 361.54,
+        "high": 363.68,
+        "low": 360.3,
+        "close": 363.44,
+        "Volume": 58248731.0,
+        "Smoothing Line": 5378243085,
+        "OnBalanceVolume": 5500683957.0
+    },
+    {
+        "time": "2023-11-03",
+        "open": 364.75,
+        "high": 369.02,
+        "low": 364.52,
+        "close": 367.71,
+        "Volume": 53280458.0,
+        "Smoothing Line": 5400208251,
+        "OnBalanceVolume": 5553964415.0
     }
 ]
